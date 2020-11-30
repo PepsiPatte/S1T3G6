@@ -8,3 +8,40 @@ header, section, article, div, footer {
     margin: 0;
     padding: 0;
 }
+
+/* Grid */
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "nav"
+    "hero"
+    "main"
+    "footer";
+}
+/* Grid-Area Names */
+.gd-AreaName_Nav {
+    grid-area: nav;
+}
+.gd-AreaName_Hero {
+    grid-area: hero;
+}
+.gd-AreaName_Main {
+    grid-area: main;
+}
+.gd-AreaName_Footer {
+    grid-area: footer;
+}
+/* Colors */
+.ut-Color_Gold {
+    color: #e6B32B;
+}
+.ut-Color_LightGold {
+    color: #F0C255;
+}
+.ut-Color_Red {
+    color: #d9180B;
+}
+.ut-Color_LightRed {
+    color: #F0523F;
+}
