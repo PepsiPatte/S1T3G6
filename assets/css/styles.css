@@ -18,7 +18,7 @@ header, section, article, div, footer {
     "hero"
     "main"
     "footer";
-    align-content: center;
+    justify-content: center;
 }
 /* Grid-Area Names */
 .gd-AreaName_Nav {
