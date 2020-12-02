@@ -9,6 +9,7 @@ header, section, article, div, footer, ul, li, video, div {
     padding: 0;
 }
 
+
 /* Grid */
 .container {
     display: grid;
@@ -21,24 +22,8 @@ header, section, article, div, footer, ul, li, video, div {
     align-content: center;
     justify-content: center;
 }
-/* Grid-Area Names */
-/* .gd-AreaName_Nav {
-    grid-area: nav;
-}
-.gd-AreaName_Hero {
-    grid-area: hero;
-}
-.gd-AreaName_Main {
-    grid-area: main;
-}
-.gd-AreaName_Footer {
-    grid-area: footer;
-} */
 
 /* Utility */
-.ut-Title-AlignCenter {
-    text-align: center;
-}
 /* Colors */
 .ut-Color_Gold {
     color: #e6B32B;
