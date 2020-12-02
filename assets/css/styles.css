@@ -61,6 +61,15 @@ address{
     vertical-align: text-bottom; 
 } 
 
+.address_ul{ 
+    list-style-type: none; 
+    text-decoration: none; 
+    padding: 0; 
+    margin: 0; 
+} 
+
+
+
 .ft-left{ 
     display: inline-block; 
     width: 50vw; 
