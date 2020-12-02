@@ -34,6 +34,11 @@ header, section, article, div, footer, ul, li, video, div {
 .gd-AreaName_Footer {
     grid-area: footer;
 } */
+
+/* Utility */
+.ut-Title-AlignCenter {
+    text-align: center;
+}
 /* Colors */
 .ut-Color_Gold {
     color: #e6B32B;
