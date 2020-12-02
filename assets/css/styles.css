@@ -47,3 +47,65 @@ header, section, article, div, footer, ul, li, video, div {
 .ix-Video {
     width: 100%;
 }
+footer{ 
+    display: flex; 
+    flex-direction: row; 
+    width: 100vw; 
+    background-color: #830B00; 
+    color: white; 
+    font-weight: normal; 
+} 
+
+.ft-aalogo{ 
+    width: 30vw; 
+} 
+
+address{ 
+    font-style: none; 
+    height: 10vh; 
+    padding: 1vw; 
+    vertical-align: text-bottom; 
+} 
+
+.address_ul{ 
+    list-style-type: none; 
+    text-decoration: none; 
+    padding: 0; 
+    margin: 0; 
+} 
+
+
+
+.ft-left{ 
+    display: inline-block; 
+    width: 50vw; 
+} 
+
+.ft-right{ 
+    display: inline-block; 
+    width: 50vw; 
+} 
+
+.ft-logo{ 
+    display: inline-block; 
+    width: auto; 
+    height: 5vh; 
+    padding: 1%; 
+} 
+
+.ft-soMe.row{ 
+    display: flex; 
+    flex-direction: row; 
+    border: 5px solid hotpink; 
+    width: 50vw; 
+    background-color: hotpink; 
+} 
+
+.iconbox{ 
+    display: inline-block; 
+    padding: 1vh 2vh 2vh 0; 
+} 
+
+.ft-link{ 
+    color: white; 
+} 
