@@ -6,7 +6,7 @@ html, body {
     padding: 0; 
     font-family: 'Zilla Slab', serif; 
 }
-header, section, article, div, footer {
+header, section, article, div, footer, ul, li, video, div {
     margin: 0;
     padding: 0;
 }
@@ -14,13 +14,14 @@ header, section, article, div, footer {
 /* Grid */
 .container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
     /* grid-template-areas: 
     "nav"
     "hero"
     "main"
     "footer"; */
     align-content: center;
+    justify-content: center;
 }
 /* Grid-Area Names */
 /* .gd-AreaName_Nav {
@@ -116,4 +117,13 @@ address{
 }
 .ut-Color_LightRed {
     color: #F0523F;
+}
+/* Index */
+/* Video/Hero */
+.ix-Hero_Video {
+    text-align: center;
+    width: 100%;
+}
+.ix-Video {
+    width: 100%;
 }
