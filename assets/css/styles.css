@@ -25,20 +25,26 @@ header, section, article, div, footer, ul, li, video, div {
 }
 
 /* Utility */
+/* Background */
+.ut-Main_Background {
+    background-image: ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 /* Colors */
-.ut-Color_Gold {
-    color: #e6B32B;
+.ut-Color_Gold {color: #FAF04B;}
+.ut-Color_Green {color: #195942;}
+.ut-Color_DarkRed {color: #401317;}
+.ut-Color_Red {color: #830B00;}
+/* Indholdskasser */
+.ut-Container_DarkRed {
+    background-color: #401317;
+    opacity: 35%;
 }
-.ut-Color_LightGold {
-    color: #F0C255;
-}
-.ut-Color_Red {
-    color: #d9180B;
-}
-.ut-Color_LightRed {
-    color: #F0523F;
-}
+
 /* Index */
+
+
 /* Video/Hero */
 .ix-Hero_Video {
     text-align: center;
@@ -47,6 +53,8 @@ header, section, article, div, footer, ul, li, video, div {
 .ix-Video {
     width: 100%;
 }
+
+/* Footer */
 footer{ 
     display: flex; 
     flex-direction: row; 
