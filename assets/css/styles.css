@@ -4,13 +4,27 @@
 html, body {
     margin: 0;
     font-family: 'Zilla Slab', serif; 
+    color: white;
 }
-header, section, article, div, footer, ul, li, video, div {
+header, section, article, div, footer, ul, li, video, div, h1, h2, h3, h4, p, a {
     margin: 0;
     padding: 0;
 }
-
-
+h1, h2, h3 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+h3 {
+    font-weight: normal;
+    margin: 0 0 2% 0;
+}
+p {
+    font-size: 16px;
+}
+li {
+    list-style-type: none;
+}
 /* Grid */
 .container {
     display: grid;
@@ -26,21 +40,35 @@ header, section, article, div, footer, ul, li, video, div {
 
 /* Utility */
 /* Background */
-.ut-Main_Background {
-    background-image: ;
-    background-position: center;
+.ut-Main-Background_Pine { 
+    background-image: url(/assets/images/pinetree.jpg);
+    width: 100%;
+    height: auto;
+    background-position: top;
     background-repeat: no-repeat;
+    /* Gider ikke virke? Kan ikke finde billedet?? */
 }
 /* Colors */
 .ut-Color_Gold {color: #FAF04B;}
 .ut-Color_Green {color: #195942;}
 .ut-Color_DarkRed {color: #401317;}
 .ut-Color_Red {color: #830B00;}
+
+.ut-Color-BG_Red {
+    background-color: #830B00;
+}
+/* Placering */
+.ut_FloatLeft {float: left;}
+.ut_FloatRight {float: right;}
 /* Indholdskasser */
 .ut-Container_DarkRed {
     background-color: #401317;
     opacity: 35%;
+    padding: 1vw 5vw 3vw 5vw;
 }
+.ut-Container-Li_Margin {
+    margin: 1vw;
+} 
 
 /* Index */
 
@@ -53,9 +81,13 @@ header, section, article, div, footer, ul, li, video, div {
 .ix-Video {
     width: 100%;
 }
+/* Footer v2 */
+footer {
+   
+}
 
 /* Footer */
-footer{ 
+/* footer{ 
     display: flex; 
     flex-direction: row; 
     width: 100vw; 
@@ -116,4 +148,4 @@ address{
 
 .ft-link{ 
     color: white; 
-} 
+}  */
