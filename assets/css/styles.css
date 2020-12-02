@@ -6,9 +6,12 @@ html, body {
     font-family: 'Zilla Slab', serif; 
     color: white;
 }
-header, section, article, div, footer, ul, li, video, div, h1, h2, h3, h4, p, a {
+header, section, article, div, footer, ul, li, video, div, h1, h2, h3, h4, p, a, img {
     margin: 0;
     padding: 0;
+}
+img {
+    width: 100vw;
 }
 h1, h2, h3 {
     font-size: 24px;
@@ -25,28 +28,30 @@ p {
 li {
     list-style-type: none;
 }
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+footer {
+    padding: 2vw;
+}
+adress a {
+    font-weight: bold;
+}
 /* Grid */
 .container {
     display: grid;
     grid-template-columns: 100%;
-    /* grid-template-areas: 
-    "nav"
-    "hero"
-    "main"
-    "footer"; */
+    grid-row-gap: 1vw;
     align-content: center;
     justify-content: center;
 }
 
 /* Utility */
 /* Background */
-.ut-Main-Background_Pine { 
-    background-image: url(/assets/images/pinetree.jpg);
-    width: 100%;
-    height: auto;
-    background-position: top;
-    background-repeat: no-repeat;
-    /* Gider ikke virke? Kan ikke finde billedet?? */
+.ut-Main-BG { 
+    background-image: url("/assets/images/pinetree.jpg");
 }
 /* Colors */
 .ut-Color_Gold {color: #FAF04B;}
@@ -58,8 +63,9 @@ li {
     background-color: #830B00;
 }
 /* Placering */
-.ut_FloatLeft {float: left;}
-.ut_FloatRight {float: right;}
+.ut-Position_FloatLeft {float: left;}
+.ut-Position_FloatRight {float: right;}
+.ut-Position_ClearBoth {clear: both;}
 /* Indholdskasser */
 .ut-Container_DarkRed {
     background-color: #401317;
@@ -82,10 +88,22 @@ li {
     width: 100%;
 }
 /* Footer v2 */
-footer {
-   
+.ft-Logo {
+    width: 100%;
 }
-
+.ft-Position_Flex {
+    display: flex;
+    vertical-align: row;
+    justify-content: space-between;
+}
+.ft-Logo_Social {
+    margin: 5px;
+    width: 65px;
+    height: auto;
+}
+.ft-Tlf::before {
+    content: "Tlf:";
+}
 /* Footer */
 /* footer{ 
     display: flex; 
