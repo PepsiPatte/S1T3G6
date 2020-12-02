@@ -13,15 +13,15 @@ header, section, article, div, footer {
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-areas: 
+    /* grid-template-areas: 
     "nav"
     "hero"
     "main"
-    "footer";
+    "footer"; */
     align-content: center;
 }
 /* Grid-Area Names */
-.gd-AreaName_Nav {
+/* .gd-AreaName_Nav {
     grid-area: nav;
 }
 .gd-AreaName_Hero {
@@ -32,7 +32,7 @@ header, section, article, div, footer {
 }
 .gd-AreaName_Footer {
     grid-area: footer;
-}
+} */
 /* Colors */
 .ut-Color_Gold {
     color: #e6B32B;
