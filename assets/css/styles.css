@@ -43,7 +43,6 @@ adress a {
 .container {
     display: grid;
     grid-template-columns: 100%;
-    grid-row-gap: 1vw;
     align-content: center;
     justify-content: center;
 }
@@ -63,13 +62,13 @@ adress a {
     background-color: #830B00;
 }
 /* Placering */
-.ut-Position_FloatLeft {float: left;}
+.ut-Position_FloatLeft  {float: left;}
 .ut-Position_FloatRight {float: right;}
-.ut-Position_ClearBoth {clear: both;}
+.ut-Position_ClearBoth  {clear: both;}
+.ut-Position-Margin_Top {margin: 5vw 0;}
 /* Indholdskasser */
 .ut-Container_DarkRed {
-    background-color: #401317;
-    opacity: 35%;
+    background-color: rgba(64, 19, 23, 35);
     padding: 1vw 5vw 3vw 5vw;
 }
 .ut-Container-Li_Margin {
