@@ -10,30 +10,25 @@ header, section, article, div, footer, ul, li, video, div, h1, h2, h3, h4, p, a,
     margin: 0;
     padding: 0;
 }
-
-/*Start Top Navigation*/
-.Header-Logo {
-    width: auto;
-    float: left;
-}
-.TopNav {
-    font-size: 24px;
-    font-weight: bold;
-    background-color:#830B00;
-    overflow: hidden;
-  }
-  .TopNav a {
-    text-align: center;
-    text-decoration: none;
-  }
-  .TopNav a:hover {
-    color:  #FAF04B;
-  }
-  .TopNav a.active {
-    color: #FAF04B;
-  }
 li {
     list-style-type: none;
+}
+.nav-Bar-Li {
+    font-size: 4vw;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 1vw;
+}
+.nav-Bar-Flex_Ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-Bar-Flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 /*Slut Top Navigation*/
 img {
@@ -43,24 +38,32 @@ h1, h2, h3 {
     font-size: 24px;
     text-align: center;
     font-weight: bold;
+    margin: 0 0 2% 0;
 }
 h3 {
     font-weight: normal;
-    margin: 0 0 2% 0;
+    
 }
 p {
     font-size: 16px;
+    line-height: 22px;
 }
+/* Links */
 a {
     text-decoration: none;
     color: white;
-    font-weight: normal;
+    font-weight: bold;
 }
+a:link, a:visited {
+    color: white;
+}
+a:hover {color: #FAF04B;}
+li:active {
+    transform: scale(0.95,0.95);
+}
+
 footer {
     padding: 2vw;
-}
-adress a {
-    font-weight: bold;
 }
 /* Grid */
 .container {
@@ -73,9 +76,9 @@ adress a {
 /* Utility */
 /* Background */
 .ut-Main-BG { 
-    background-image: url('../images/pinetree.jpg');
+    background-image: url('../images/pinetree750_1300-15quality.jpg');
     background-position: top;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
 }
 /* Colors */
 .ut-Color_Gold {color: #FAF04B;}
@@ -96,10 +99,16 @@ adress a {
     background-color: rgba(64, 19, 23, 35);
     padding: 1vw 5vw 3vw 5vw;
 }
+.ut-Para_Max {
+    max-width: 600px;
+    margin: auto;
+}
 .ut-Container-Li_Margin {
     margin: 1vw;
 } 
-
+.ut-Logo {
+    width: 40vw;
+}
 /* Index */
 
 /* Video/Hero */
@@ -123,9 +132,6 @@ adress a {
     
 }
 /* Footer v2 */
-.ft-Logo {
-    width: 40vw;
-}
 .ft-Position_Flex {
     display: flex;
     vertical-align: row;
