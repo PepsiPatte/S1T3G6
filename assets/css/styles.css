@@ -105,7 +105,7 @@ adress a {
 
 /* Video/Hero */
 .Billet {
-    position: inherit;
+    position: absolute;
     font-size: 24px;
     text-align: center;
     font-weight: bold;
