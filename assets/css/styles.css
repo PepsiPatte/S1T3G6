@@ -87,7 +87,7 @@ adress a {
 }
 /* Footer v2 */
 .ft-Logo {
-    width: 100%;
+    width: 40vw;
 }
 .ft-Position_Flex {
     display: flex;
@@ -95,8 +95,8 @@ adress a {
     justify-content: space-between;
 }
 .ft-Logo_Social {
-    margin: 5px;
-    width: 65px;
+    margin: 1px 0 1px 1px;
+    width: 15vw;
     height: auto;
 }
 .ft-Tlf::before {
