@@ -13,24 +13,7 @@ header, section, article, div, footer, ul, li, video, div, h1, h2, h3, h4, p, a,
 li {
     list-style-type: none;
 }
-.nav-Bar-Li {
-    font-size: 4vw;
-    font-weight: bold;
-    line-height: 30px;
-    margin: 1vw;
-}
-.nav-Bar-Flex_Ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-.nav-Bar-Flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-/*Slut Top Navigation*/
+
 img {
     width: 100%;
 }
@@ -48,6 +31,9 @@ p {
     font-size: 16px;
     line-height: 22px;
 }
+footer {
+    padding: 2vw;
+}
 /* Links */
 a {
     text-decoration: none;
@@ -62,9 +48,7 @@ li:active {
     transform: scale(0.95,0.95);
 }
 
-footer {
-    padding: 2vw;
-}
+
 /* Grid */
 .container {
     display: grid;
@@ -96,7 +80,7 @@ footer {
 .ut-Position-Margin_Top {margin: 5vw 0;}
 /* Indholdskasser */
 .ut-Container_DarkRed {
-    background-color: rgba(64, 19, 23, 35);
+    background-color: rgba(64, 19, 23, 0.7);
     padding: 1vw 5vw 3vw 5vw;
 }
 .ut-Para_Max {
@@ -109,6 +93,25 @@ footer {
 .ut-Logo {
     width: 40vw;
 }
+/* Navigation */
+.nav-Bar-Li {
+    font-size: 4vw;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 1vw;
+}
+.nav-Bar-Flex_Ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-Bar-Flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 /* Index */
 
 /* Video/Hero */
