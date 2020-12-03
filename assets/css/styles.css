@@ -10,6 +10,37 @@ header, section, article, div, footer, ul, li, video, div, h1, h2, h3, h4, p, a,
     margin: 0;
     padding: 0;
 }
+
+/*Start Top Navigation*/
+
+.Header-Logo {
+    width: auto;
+    display: flex;
+    float: left;
+}
+.TopNav {
+    font-size: 24px;
+    font-weight: bold;
+    background-color:#830B00;
+    overflow: hidden;
+  }
+  .TopNav a {
+    text-align: center;
+    text-decoration: none;
+  }
+  .TopNav a:hover {
+    color:  #FAF04B;
+  }
+  .TopNav a.active {
+    color: #FAF04B;
+  }
+  li {
+      float: left;
+      margin-left: 20%;
+      line-height: 100px;
+  }
+
+/*Slut Top Navigation*/
 img {
     width: 100vw;
 }
