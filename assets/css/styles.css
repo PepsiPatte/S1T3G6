@@ -73,7 +73,9 @@ adress a {
 /* Utility */
 /* Background */
 .ut-Main-BG { 
-    background-image: url("/assets/images/pinetree.jpg");
+    background-image: url('../images/pinetree.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
 }
 /* Colors */
 .ut-Color_Gold {color: #FAF04B;}
