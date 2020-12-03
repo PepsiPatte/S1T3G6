@@ -12,10 +12,8 @@ header, section, article, div, footer, ul, li, video, div, h1, h2, h3, h4, p, a,
 }
 
 /*Start Top Navigation*/
-
 .Header-Logo {
     width: auto;
-    display: flex;
     float: left;
 }
 .TopNav {
@@ -37,9 +35,9 @@ header, section, article, div, footer, ul, li, video, div, h1, h2, h3, h4, p, a,
   li {
       float: left;
       margin-left: 20%;
-      line-height: 100px;
+      line-height: 510%;
+      list-style-type: none;
   }
-
 /*Slut Top Navigation*/
 img {
     width: 100vw;
@@ -55,9 +53,6 @@ h3 {
 }
 p {
     font-size: 16px;
-}
-li {
-    list-style-type: none;
 }
 a {
     text-decoration: none;
@@ -111,12 +106,24 @@ adress a {
 
 
 /* Video/Hero */
+.Billet {
+    position: inherit;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 45%;
+    margin-top: 27%;
+    background-color: #401317;
+    padding: 1%;
+    opacity: 80%;
+}
 .ix-Hero_Video {
     text-align: center;
     width: 100%;
 }
 .ix-Video {
     width: 100%;
+    
 }
 /* Footer v2 */
 .ft-Logo {
