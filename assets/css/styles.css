@@ -73,6 +73,9 @@ li:active {
 .ut-Color-BG_Red {
     background-color: #830B00;
 }
+.ut-Color-BG_Gold {
+    background-color: #FAF04B;
+}
 /* Placering */
 .ut-Position_FloatLeft  {float: left;}
 .ut-Position_FloatRight {float: right;}
@@ -94,6 +97,9 @@ li:active {
     width: 40vw;
 }
 /* Navigation */
+.nav-Top {
+    height: 20vw;
+}
 .nav-Bar-Li {
     font-size: 4vw;
     font-weight: bold;
@@ -113,7 +119,6 @@ li:active {
 }
 
 /* Index */
-
 /* Video/Hero */
 .Billet {
     position: absolute;
@@ -122,9 +127,7 @@ li:active {
     font-weight: bold;
     margin-left: 45%;
     margin-top: 27%;
-    background-color: #401317;
     padding: 1%;
-    opacity: 80%;
     /* Note, justere placering med Top/Left */
 }
 .ix-Hero_Video {
@@ -132,9 +135,12 @@ li:active {
     width: 100%;
 }
 .ix-Video {
-    width: 100%;
-    
+    width: 100%; 
 }
+.ix-Video_Desk {
+    display: none;
+}
+
 /* Footer v2 */
 .ft-Position_Flex {
     display: flex;
@@ -148,4 +154,89 @@ li:active {
 }
 .ft-Tlf::before {
     content: "Tlf:";
+}
+
+@media screen and (min-width: 751px){
+    h1, h2, h3 {
+        font-size: 24px;
+        text-align: center;
+        font-weight: bold;
+        margin: 0 0 2% 0;
+    }
+    p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "navtop navtop"
+        "herovideo herovideo"
+        "ixmain ixmain"
+        "footer footer";
+    }
+    .ix-Area_Hero {
+        grid-area: herovideo;
+    }
+    .ix-Area_Main {
+        grid-area: ixmain;
+    }
+    .ut-Area_Footer {
+        grid-area: footer;
+    }
+    .nav-Top {
+            height: 5vw;
+            grid-area: navtop;
+        }
+
+    .ix-Video_Mobil {
+        display: none;
+    }
+    .ix-Video_Desk {
+        display: block;
+    }
+    
+    .ut-Main-BG {
+        background-image: url(../images/pinetree1920_1080-15quality.jpg);
+    }
+
+
+    .ut-Logo {
+        width: 10vw;
+    }
+    
+    .nav-Bar-Li {
+        font-size: 1vw;
+        font-weight: bold;
+        line-height: 30px;
+    }
+    .nav-Bar-Flex_Ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-Bar-Flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .ix-Position-Flex_Main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .ut-Para_Desk {
+        width: 1fr;
+    }
+    .ut-Para_Img {
+        width: 50%;
+    }
+    .ut-Para-Jul_Desk {
+        width: 100vw;
+    }
+    .ut-Position-Margin_Top {
+        margin: 0;
+    }
 }
