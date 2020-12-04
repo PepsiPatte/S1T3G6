@@ -70,9 +70,8 @@ li:active {
 .ut-Color_DarkRed {color: #401317;}
 .ut-Color_Red {color: #830B00;}
 
-.ut-Color-BG_Red {
-    background-color: #830B00;
-}
+.ut-Color-BG_Red {background-color: #830B00;}
+.ut-Color-BG_DarkRed {background-color: rgba(64, 19, 23, 0.7);}
 .ut-Color-BG_Gold {
     background-color: #FAF04B;
 }
@@ -141,7 +140,7 @@ li:active {
     display: none;
 }
 
-/* Footer v2 */
+/* Footer */
 .ft-Position_Flex {
     display: flex;
     vertical-align: row;
@@ -153,19 +152,30 @@ li:active {
     height: auto;
 }
 .ft-Tlf::before {
-    content: "Tlf:";
+    content: "Tlf:  ";
 }
 
 @media screen and (min-width: 751px){
     h1, h2, h3 {
-        font-size: 24px;
+        font-size: 30px;
         text-align: center;
         font-weight: bold;
         margin: 0 0 2% 0;
     }
+    h3 {
+        font-size: 24px;
+        font-weight: normal;
+    }
+    h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
     p {
         font-size: 18px;
         line-height: 27px;
+    }
+    main {
+        padding: 5vw;
     }
     .container {
         grid-template-columns: 1fr 1fr;
@@ -197,10 +207,10 @@ li:active {
     }
     
     .ut-Main-BG {
-        background-image: url(../images/pinetree1920_1080-15quality.jpg);
+        background-image: url(../images/pinetree1920_1500-15.jpg);
     }
 
-
+    /* Navigation */
     .ut-Logo {
         width: 10vw;
     }
@@ -221,22 +231,35 @@ li:active {
         flex-direction: row;
         justify-content: space-between;
     }
-    
+
+    .ut-Position-Margin_Top {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Main */
     .ix-Position-Flex_Main {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: stretch;
     }
-    .ut-Para_Desk {
-        width: 1fr;
+    .ut-Para_Max {
+        max-width: 700px;
     }
-    .ut-Para_Img {
-        width: 50%;
+
+    .ix-Container-Main_Desk {
+        width: calc(50% - 2vw);
+        padding: 3vw 1vw 0 1vw;
     }
     .ut-Para-Jul_Desk {
         width: 100vw;
+        padding: 1vw;
     }
-    .ut-Position-Margin_Top {
-        margin: 0;
+    
+    /* Footer */
+    footer {
+        font-size: 24px;
+        font-weight: normal;
     }
 }
