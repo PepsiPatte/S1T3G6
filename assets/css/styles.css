@@ -125,6 +125,7 @@ li:active {
     background-color: #401317;
     padding: 1%;
     opacity: 80%;
+    /* Note, justere placering med Top/Left */
 }
 .ix-Hero_Video {
     text-align: center;
