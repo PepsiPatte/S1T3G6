@@ -261,5 +261,24 @@ li:active {
     footer {
         font-size: 24px;
         font-weight: normal;
+        padding: 1vw;
+    }
+    .ft-Text_A {
+        font-weight: normal;
+    }
+    .ft-Text_H4 {
+        font-size: 24px;
+        font-weight: normal;
+    }
+
+    .ft-Position_Flex {
+        display: flex;
+        vertical-align: row;
+        justify-content: space-around;
+    }
+    .ft-Logo_Social {
+        margin: 1px 0 1px 1px;
+        width: 3.8vw;
+        height: auto;
     }
 }
