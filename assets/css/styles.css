@@ -154,6 +154,10 @@ li:active {
 .ft-Tlf::before {
     content: "Tlf:  ";
 }
+.ft-covid-19 {
+    width: 90vw;
+    padding: 0vw 0vw 0vw 3vw;
+}
 
 @media screen and (min-width: 751px){
     h1, h2, h3 {
@@ -280,5 +284,9 @@ li:active {
         margin: 1px 0 1px 1px;
         width: 3.8vw;
         height: auto;
+    }
+    .ft-covid-19 {
+        width: 40vw;
+        padding: 0vw 3.8vw 2vw 3.8vw;
     }
 }
