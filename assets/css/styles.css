@@ -117,12 +117,9 @@ li:active {
 
 /* Index */
 /* Video/Hero */
-.ix-Hero-Btn_Posi {
-    z-index: 2;
-}
 .ix-Hero-Btn_Style {
     position: relative;
-    top: 30vw;
+    top: -10vw;
     left: calc(50vw - 15vw);
 
     z-index: 3;
@@ -151,6 +148,7 @@ li:active {
 .ix-Video {
     z-index: 1;
     width: 100%; 
+    vertical-align: top;
 }
 .ix-Video_Desk {
     display: none;
@@ -205,6 +203,9 @@ li:active {
         line-height: 27px;
     }
     main {
+        padding: 1vw 5vw 5vw 5vw;
+    }
+    .cv-Main {
         padding: 5vw;
     }
     .container-Desk_Ix {
@@ -289,8 +290,7 @@ li:active {
         
     }
     .ix-Hero-Btn_Style {
-        position: relative;
-        top: 30vw;
+        top: -7vw;
         left: calc(50vw - 10vw);
         z-index: 3;
         color: white;
@@ -337,7 +337,10 @@ li:active {
         display: block;
     }
     .ut-Position-Margin_Top {
-        margin: 0.8vw 0;
+        margin: 0.9vw 0;
+    }
+    .ut-Position-Margin_Top1 {
+        margin: 0.2vw 0;
     }
     /* Footer */
     footer {
