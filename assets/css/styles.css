@@ -48,9 +48,8 @@ li:active {
     transform: scale(0.95,0.95);
 }
 
-
 /* Grid */
-.container {
+.container-Desk_Ix {
     display: grid;
     grid-template-columns: 100%;
     align-content: center;
@@ -62,7 +61,6 @@ li:active {
 .ut-Main-BG { 
     background-image: url('../images/pinetree750_1300-15quality.jpg');
     background-position: top;
-    background-repeat: repeat-y;
 }
 /* Colors */
 .ut-Color_Gold {color: #FAF04B;}
@@ -119,27 +117,52 @@ li:active {
 
 /* Index */
 /* Video/Hero */
-.Billet {
-    position: absolute;
-    font-size: 24px;
+.ix-Hero-Btn_Posi {
+    z-index: 2;
+}
+.ix-Hero-Btn_Style {
+    position: relative;
+    top: 30vw;
+    left: calc(50vw - 15vw);
+
+    z-index: 3;
+    color: white;
+    background-color: rgba(64, 19, 23, 0.7);
+
+    border-radius: 5px;
+    padding: 1vw 2vw;
+
+    font-size: 5vw;
+    width: 15vw;
     text-align: center;
     font-weight: bold;
-    margin-left: 45%;
-    margin-top: 27%;
-    padding: 1%;
-    /* Note, justere placering med Top/Left */
+}
+.ix-Hero-Btn_Style:hover {
+    color: white;
+    background-color: rgba(250, 240, 75, 0.7);
+}
+.ix-Hero-Btn_Style:active {
+    background-color: #FAF04B;
 }
 .ix-Hero_Video {
     text-align: center;
     width: 100%;
 }
 .ix-Video {
+    z-index: 1;
     width: 100%; 
 }
 .ix-Video_Desk {
     display: none;
 }
-
+/* Covid */
+.cv-Main-Img_MaxMob {
+    max-width: 298px;
+    display: inline-block;
+}
+.cv-Main-Img_MaxDesk {
+    max-width: 596px;
+}
 /* Footer */
 .ft-Position_Flex {
     display: flex;
@@ -151,6 +174,9 @@ li:active {
     width: 15vw;
     height: auto;
 }
+.ft-Logo_Social:hover {transform: scale(1.05,1.05);}
+.ft-Logo_Social:active {transform: scale(0.95,0.95);}
+
 .ft-Tlf::before {
     content: "Tlf:  ";
 }
@@ -181,11 +207,26 @@ li:active {
     main {
         padding: 5vw;
     }
-    .container {
+    .container-Desk_Ix {
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
         "navtop navtop"
         "herovideo herovideo"
+        "ixmain ixmain"
+        "footer footer";
+    }
+    .container-Desk_ev {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "navtop navtop"
+        "herovideo herovideo"
+        "ixmain ixmain"
+        "footer footer";
+    }
+    .container-Desk_c19 {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "navtop navtop"
         "ixmain ixmain"
         "footer footer";
     }
@@ -212,6 +253,7 @@ li:active {
     
     .ut-Main-BG {
         background-image: url(../images/pinetree1920_1500-15.jpg);
+
     }
 
     /* Navigation */
@@ -241,6 +283,28 @@ li:active {
         padding: 0;
     }
 
+    /* Hero */
+    .ix-Hero-Btn_Posi {
+        z-index: 2;
+        
+    }
+    .ix-Hero-Btn_Style {
+        position: relative;
+        top: 30vw;
+        left: calc(50vw - 10vw);
+        z-index: 3;
+        color: white;
+        background-color: rgba(64, 19, 23, 0.7);
+    
+        border-radius: 5px;
+        padding: 0.5vw 1vw;
+    
+        font-size: 3vw;
+        width: 10vw;
+        text-align: center;
+        font-weight: bold;
+    }
+
     /* Main */
     .ix-Position-Flex_Main {
         display: flex;
@@ -260,7 +324,21 @@ li:active {
         width: 100vw;
         padding: 1vw;
     }
-    
+    /* Covid 19 */
+    .cv-Position-Flex_Main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .cv-Main-Img_Mob {
+        display: none;
+    }
+    .cv-Main-Img_Desk {
+        display: block;
+    }
+    .ut-Position-Margin_Top {
+        margin: 0.8vw 0;
+    }
     /* Footer */
     footer {
         font-size: 24px;
