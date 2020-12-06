@@ -160,13 +160,17 @@ li:active {
     display: block;
     margin-left: 2.4vw;
 }
+.ev-Main-Img_MaxMob {
+    max-width: 298px;
+    display: inline-block;
+}
+.ev-Main-Img_MaxDesk {
+    max-width: 596px;
+}
 /* Covid */
 .cv-Main-Img_MaxMob {
     max-width: 298px;
     display: inline-block;
-}
-.cv-Main-Img_MaxDesk {
-    max-width: 596px;
 }
 /* Footer */
 .ft-Position_Flex {
@@ -331,6 +335,9 @@ li:active {
         width: 100vw;
         padding: 1vw;
     }
+    .cv-Main-Img_MaxDesk {
+        max-width: 596px;
+    }
     /* Covid 19 */
     .cv-Position-Flex_Main {
         display: flex;
@@ -349,6 +356,16 @@ li:active {
     .ut-Position-Margin_Top1 {
         margin: 0.2vw 0;
     }
+    /* Events */
+    .ev-Position-Flex_Sec {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .ev-Main-Img_MaxDesk {
+        max-width: 30vw;
+    }
+
     /* Footer */
     footer {
         font-size: 24px;
