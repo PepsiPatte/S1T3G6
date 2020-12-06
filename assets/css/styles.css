@@ -357,6 +357,11 @@ li:active {
         margin: 0.2vw 0;
     }
     /* Events */
+    .ev-Main-H1 {
+        display: inline-block;
+        width: 100%;
+
+    }
     .ev-Position-Flex_Sec {
         display: flex;
         flex-direction: row;
@@ -364,6 +369,9 @@ li:active {
     }
     .ev-Main-Img_MaxDesk {
         max-width: 30vw;
+    }
+    .ev-Para_Max {
+        max-width: 40vw;
     }
 
     /* Footer */
