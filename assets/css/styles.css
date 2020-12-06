@@ -357,21 +357,45 @@ li:active {
         margin: 0.2vw 0;
     }
     /* Events */
+    .ev-Position-Flex_Main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
     .ev-Main-H1 {
         display: inline-block;
         width: 100%;
-
+        text-align: center;
+    }
+    .ev-H2 {
+        display: inline-block;
+        text-align: center;
     }
     .ev-Position-Flex_Sec {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-between;
+    }
+    .ev-Position-Flex_Article {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: top;
     }
     .ev-Main-Img_MaxDesk {
         max-width: 30vw;
     }
     .ev-Para_Max {
-        max-width: 40vw;
+        max-width: 30vw;
+    }
+    .ev-Container_DarkRed {
+        padding: 2vw;
+        margin: 0;
+        background-color: rgba(64, 19, 23, 0.7);
+        width: 40vw;
     }
 
     /* Footer */
