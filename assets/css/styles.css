@@ -44,7 +44,7 @@ a:link, a:visited {
     color: white;
 }
 a:hover {color: #FAF04B;}
-li:active {
+.li:active {
     transform: scale(0.95,0.95);
 }
 
