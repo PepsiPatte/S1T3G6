@@ -153,6 +153,13 @@ li:active {
 .ix-Video_Desk {
     display: none;
 }
+/*Events*/
+
+.Event-billeder {
+    width: 85vw;
+    display: block;
+    margin-left: 2.4vw;
+}
 /* Covid */
 .cv-Main-Img_MaxMob {
     max-width: 298px;
