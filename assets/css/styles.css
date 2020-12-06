@@ -155,17 +155,17 @@ li:active {
 }
 /*Events*/
 
-.Event-billeder {
-    width: 85vw;
-    display: block;
-    margin-left: 2.4vw;
-}
 .ev-Main-Img_MaxMob {
     max-width: 298px;
     display: inline-block;
 }
 .ev-Main-Img_MaxDesk {
     max-width: 596px;
+}
+.ev-Container_DarkRed {
+    padding: 2vw;
+    margin: 0;
+    background-color: rgba(64, 19, 23, 0.7);
 }
 /* Covid */
 .cv-Main-Img_MaxMob {
@@ -371,6 +371,8 @@ li:active {
     .ev-H2 {
         display: inline-block;
         text-align: center;
+        margin: 0;  
+        width: 100%;
     }
     .ev-Position-Flex_Sec {
         display: flex;
@@ -383,7 +385,6 @@ li:active {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        align-content: top;
     }
     .ev-Main-Img_MaxDesk {
         max-width: 30vw;
